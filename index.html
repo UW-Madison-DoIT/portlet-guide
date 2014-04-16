@@ -1,0 +1,260 @@
+---
+layout: default
+---
+
+
+<div class="heading" id="toc">
+  <h2>Meta</h2>
+</div>
+
+<div class="heading" id="toc">
+  <h2>Table of contents</h2>
+</div>
+
+<div class="section toc">
+
+  <div class="col">
+    <h3><a href="#portlet">Being a Portlet</a></h3>
+    <ul>
+      <li>TODO</li>
+    </ul>
+  </div>
+
+<div class="col">
+  <h3><a href="#uportlet">Being a Portlet in uPortal</a></h3>
+  <ul>
+    <li>TODO</li>
+  </ul>
+</div>
+
+</div>
+
+<div class="section toc">
+
+  <div class="col">
+    <h3><a href="#markup">Markup and CSS</a></h3>
+    <ul>
+      <li>TODO</li>
+    </ul>
+  </div>
+
+<div class="col">
+  <h3><a href="#javascript">JavaScript</a></h3>
+  <ul>
+    <li>TODO</li>
+
+  </ul>
+</div>
+
+</div>
+
+<div class="section toc">
+
+  <div class="col">
+    <h3><a href="#ui">UI conventions</a></h3>
+    <ul>
+      <li>TODO</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="section toc">
+
+  <div class="col">
+    <h3><a href="#voice">Voice</a></h3>
+    <ul>
+      <li>TODO</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="section toc">
+
+<div class="col">
+  <h3><a href="#product">Being a portlet product</a></h4>
+  <ul>
+    <li>TODO</li>
+  </ul>
+</div>
+
+
+
+</div> <!-- end toc -->
+
+
+
+
+
+
+
+<div class="section" id="scope">
+  <div class="col">
+    <h2>Scope</h2>
+    <p>This is the portlet style guide.</p>
+  </div>
+  <div class="col">
+    <h3>In-scope</h3>
+    <p>Examples of topics in-scope (but not treated yet in this guide):</p>
+    <ul>
+      <li>Effective use of window states</li>
+      <li>Support for portlet modes</li>
+      <li>render vs action vs resource</li>
+      <li>Using portlet eventing effectively</li>
+      <li>Caching as a portlet effectively</li>
+      <li>Supporting uPortal search event specifically</li>
+      <li>Using the Resource Serving Webapp</li>
+      <li>Portlet entity files generally</li>
+      <li>Participating in the Marketplace</li>
+      <li>Domain-specific entity files and participating in uPortal import-export</li>
+      <li>Within-portlet navigation</li>
+      <li>Logging</li>
+      <li>Using JSR-286, Bootstrap, and portlet-custom CSS effectively</li>
+      <li>JavaScript and its opportunities and playing-nice-within-portal considerations</li>
+      <li>Notifying the user</li>
+      <li>How help feels</li>
+      <li>Optional and required form fields in MyUW portlets</li>
+    </ul>
+
+    <h3>Out-of-scope</h3>
+    <p>Examples of topics out-of-scope:</p>
+    <ul>
+      <li>Considerations unique to writing portlets that run as part of the portal web application / portlet application itself (that belongs in the portal-guide that might exist someday).</li>
+      <li>Considerations in writing portal framework code (that belongs in the portal--guide that might exist someday).</li>
+      <li>Considerations generic to Java web applications, concerns that aren't particularly portlet flavored.</li>
+      <li>Considerations generic to open source software projects, like effectively applying appropriate licensing.</li>
+      <li>Considerations generic to software development, like using Semantic Versioning and providing good documentation.</li>
+    </ul>
+
+    <h3>See also</h3>
+    <p>Other guides that might be relevant:</p>
+    <ul>
+      <li><a href="http://www.uc.wisc.edu/styleguide/">University of Wisconsin Communications Editorial Style Guide</a></li>
+      <li><a href="http://www.uc.wisc.edu/brand/">University of Wisconsin Brand and Visual Identity Guidelines</a>, especially the <a href="http://www.uc.wisc.edu/brand/web/">guidelines related to the web</a></li>
+      <li><a href="http://devblog.uc.wisc.edu/blog/introducing-uw-devblog/">UW DevBlog</a></li>
+      <li><a href="http://www.wisc.edu/policies/wwwap.php">UW-Madison World Wide Web Accessibility Policy</a></li>
+      <li><a href="http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml">Google HTML/CSS Style Guide</a></li>
+      <li><a href="http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml">Google JavaScript Style Guide</a></li>
+      <li><a href="http://codeguide.co/">Code Guide</a> (CSS and JavaScript)</li>
+      <li><a href="http://google-styleguide.googlecode.com/svn/trunk/javaguide.html">Google Java Style</a> guide</li>
+      <li>Oracle's <a href="http://www.oracle.com/technetwork/java/codeconv-138413.html">Code Conventions for the Java Language</a></li>
+      <li><a href="http://google-styleguide.googlecode.com/svn/trunk/xmlstyle.html">Google XML Document Format Style Guide</a></li>
+      <li><a href="https://wiki.jasig.org/display/UPC/User+Interface">uPortal and portlet user interface guidelines</a></li>
+      <li><a href="https://wiki.jasig.org/display/UDM/Portlet+Development">uPortal Developer's Manual on Portlet Development</a></li>
+    </ul>
+
+  </div>
+</div>
+
+
+
+<div class="section" id="golden-rule">
+  <div class="col">
+    <h2>Be kind</h2>
+    <p>Be kind to your users.  Be kind to your fellow developers.  Be especially kind to those who especially struggle, who struggle to understand your portlet, who struggle to navigate the portal, who struggle to understand, support, and build upon your work, who struggle to make the most of the richness and complexity of the University.  The purpose of a portlet development guide is to guide development towards processes, products, and experiences that are more kind.</p>
+    <p>A kind portlet is a usable, accessible, adoptable, supportable, maintainable, loved portlet.</p>
+    <p>Modifying and writing portlets is a tiny little opportunity to be kind.  Certainly nothing like the most important such opportunities you will enjoy, but when life hands you an opportunity to be kind, take it.</p>
+    <p>Take care to be kind when applying this guide to others' work.  The guide is not intended as a blunt instrument.  Portlet development, like much of life, requires poise and charm.</p>
+  </div>
+  <div class="col">
+    <blockquote>
+      <p>Life's most persistent and urgent question is, &quot;What are you doing for others?&quot;</p>
+    </blockquote>
+    <p>- Martin Luther King, Jr.</p>
+  </div>
+</div>
+
+
+<div class="heading">
+  <h2>Be Kind to the Portal</h2>
+</div>
+
+<div class="heading" id="portlet">
+  <h3>Being a Portlet</h3>
+</div>
+
+<div class="section">
+  <div class="col">
+    <h3>Hipster Ipsum</h3>
+    <p>Documentation goes here.  Beard keytar VHS blog, photo booth church-key Bushwick flannel stumptown Thundercats Blue Bottle. Raw denim gluten-free sartorial brunch cliche. Locavore synth master cleanse, keffiyeh bitters Pitchfork Brooklyn asymmetrical YOLO beard distillery Carles fashion axe. 90's single-origin coffee deep v, Cosby sweater fingerstache banjo Tumblr organic ethnic bespoke kogi gluten-free lo-fi chillwave. Helvetica food truck fanny pack, quinoa wayfarers wolf literally banh mi chambray banjo chia hella single-origin coffee. Selvage Banksy literally trust fund paleo Thundercats High Life, Godard vinyl drinking vinegar wolf banjo. Mumblecore whatever organic PBR typewriter, butcher occupy dreamcatcher wayfarers vinyl pop-up.</p>
+  </div>
+  <div class="col">
+    <p>Examples and further explanation go here.</p>
+    <ul>
+      <li>Scenester</li>
+      <li>Slow food movement</li>
+      <li>Self-service components</li>
+      <li>Bicycle rights</li>
+      <li>Contextualized wayfarers</li>
+    </ul>
+    <p>Another list of some other stuff</p>
+    <ul>
+      <li>Rich interactive applications with significant client-side components</li>
+      <li>Raw denim</li>
+      <li>Artisinal typewriter</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="col">
+    <h3>Another guideline</h3>
+    <p>Details about something that can be explained with a picture.</p>
+  </div>
+  <div class="col">
+    <img src="http://placehold.it/400x200&text=Screenshot+of+exemplar"/>
+  </div>
+</div>
+
+<div class="section">
+  <div class="col">
+    <h3>Yet another guideline</h3>
+    <p>Something that needed explaining with a bigger picture.</p>
+  </div>
+  <div class="col">
+    <img src="http://placehold.it/500x500&text=Screenshot+of+exemplar"/>
+  </div>
+</div>
+
+
+
+<div class="heading">
+  <h3>Being a Portlet in uPortal</h3>
+</div>
+
+
+<div class="heading" id="markup">
+  <h3>Markup and CSS</h3>
+</div>
+
+<div class="heading" id="javascript">
+  <h3>JavaScript</h3>
+</div>
+
+<div class="section">
+
+  <div class="col">
+  <p>TODO: say something intelligent about JavaScript in the context of portlets.  Somehow JavaScript is not turning out to be a passing fad.</p>
+</div>
+</div>
+
+<div class="heading">
+  <h2>Be kind to the users</h2>
+</div>
+
+<div class="heading" id="ui">
+  <h3>UI Conventions</h3>
+</div>
+
+<div class="heading" id="voice">
+  <h3>Voice</h3>
+</div>
+
+<div class="heading">
+  <h2>Be kind to your fellow developers and the portal community</h2>
+</div>
+
+<div class="heading" id="product">
+  <h3>Portlet as Product</h3>
+</div>

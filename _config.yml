@@ -1,0 +1,6 @@
+name:          portlet-guide
+description:   Guidelines for developing portlets
+url:           http://UW-Madison-DoIT.github.io/portlet-guide
+markdown:      rdiscount
+permalink:     pretty
+pygments:      true
